@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+}
+.main{
+    background-color: white;
+    width: 700px;
+    height: 500px;
+    border-radius: 11px;
+    display: flex;
+}
+img{
+    width: 350px;
+    height: 500px;
+    border-radius: 11px 0px 0px 11px;
+}
+.top{
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+h1{
+    font-family: "Fraunces";
+    font-weight: 700;
+    font-size: 40px;
+    width: 250px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.txt{
+    font-family: "Montserrat";
+    color: hsl(228, 12%, 48%);
+    font-size: 17px;
+    width: 280px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.crac{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+    align-items: center;
+    gap: 28px;
+}
+h2{
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces";
+    font-size: 33px;
+}
+.mon{
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat";
+    font-weight: 450;
+}
+button{
+    background-color: hsl(158, 36%, 37%);
+    width: 280px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+}
+.add{
+    font-size: 15px;
+    color: white;
+    font-family: "montserrat";
+    font-weight: 500;
+}
+button:hover{
+    background-color: hsl(158, 42%, 18%);
+    cursor: pointer;
+}

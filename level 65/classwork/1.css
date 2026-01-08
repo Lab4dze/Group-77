@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+div{
+    width: 200px;
+    height: 103px;
+    background-color: black;
+}
+div:hover{
+    transform: translate(125px);
+}
+.s{
+    width: 200px;
+    height: 155px;
+    background-color: rgb(211, 40, 40);
+}
+.s:hover{
+    transform: scale(1.5);
+}
+.a{
+    width: 200px;
+    height: 155px;
+    background-color: rgb(206, 161, 161);
+}
+.a:hover{
+    transform: skew(120deg);
+}
+.asd{
+    width: 200px;
+    height: 155px;
+    background-color: rgb(73, 131, 170);
+}
+.asd:hover{
+    transform: rotate(134deg);
+}
+
+
+.sa{
+    width: 200px;
+    height: 155px;
+    background-color: rgb(160, 204, 38);
+    transition: 2s 1s ease;
+}
+.sa:hover{
+    transform:translate(123px) rotate(42deg) skew(123deg) scale(1.2);
+}

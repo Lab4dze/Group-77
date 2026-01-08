@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.aa{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid salmon;
+    animation: spin 1s linear infinite;
+    border-bottom-color: transparent;
+}
+@keyframes spin {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(360deg);
+    }
+}
